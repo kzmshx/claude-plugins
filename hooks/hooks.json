@@ -5,8 +5,8 @@
         "matcher": "",
         "hooks": [
           {
-            "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/check-plan.sh"
+            "type": "prompt",
+            "prompt": "Check if this is a feature branch (not main/master). If so, check if PLAN.md exists at .claude/pdd/{branch}/PLAN.md (or $PDD_WORKSPACE_DIR/{branch}/PLAN.md if set). If no PLAN exists, briefly note that /pdd:plan is available for planning."
           }
         ]
       }
