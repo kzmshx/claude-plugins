@@ -9,7 +9,13 @@ PDD (Plan-Driven Development) is a methodology for AI-assisted development that 
 1. **PLAN.md**: Collaboratively design before implementation
 2. **NOTES.md**: Capture discoveries during implementation
 
-This plugin provides commands to manage these artifacts across sessions.
+This plugin provides commands and automatic workflow integration.
+
+## Features
+
+- **Commands**: `/pdd:plan` and `/pdd:notes` for explicit control
+- **Skill**: Claude automatically suggests PDD workflow when appropriate
+- **Hook**: Session start checks for existing PLAN.md
 
 ## Installation
 
