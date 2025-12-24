@@ -10,6 +10,17 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Review this session. If significant discoveries, unexpected issues, or important technical decisions were made during implementation, suggest running /pdd:notes to capture them before ending."
+          }
+        ]
+      }
     ]
   }
 }
