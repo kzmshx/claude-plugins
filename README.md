@@ -7,7 +7,7 @@ A collection of Claude Code plugins for enhanced development workflows.
 Add this marketplace to your Claude Code:
 
 ```bash
-/plugin marketplace add kzmshx/claude-plugin-pdd
+/plugin marketplace add kzmshx/claude-plugins
 ```
 
 ## Available Plugins

@@ -22,7 +22,7 @@ This plugin provides commands and automatic workflow integration.
 First, add the marketplace:
 
 ```bash
-/plugin marketplace add kzmshx/claude-plugin-pdd
+/plugin marketplace add kzmshx/claude-plugins
 ```
 
 Then install the plugin:
