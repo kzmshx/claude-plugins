@@ -1,0 +1,24 @@
+{
+  "name": "kzmshx",
+  "owner": {
+    "name": "kzmshx"
+  },
+  "metadata": {
+    "description": "kzmshx's Claude Code plugins collection",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "pdd",
+      "source": "./plugins/pdd",
+      "description": "Plan-Driven Development plugin for Claude Code. Manage PLAN.md and NOTES.md for AI-assisted development workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "kzmshx"
+      },
+      "category": "productivity",
+      "keywords": ["planning", "notes", "workflow", "productivity", "development"]
+    }
+  ]
+}
