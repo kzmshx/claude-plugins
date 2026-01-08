@@ -1,39 +1,32 @@
 # kzmshx's Claude Code Plugins
 
-A collection of Claude Code plugins for enhanced development workflows.
+A personal collection of Claude Code plugins.
+
+> **Note:** Make sure you trust a plugin before installing, updating, or using it.
 
 ## Installation
 
-Add this marketplace to your Claude Code:
+Add this marketplace to Claude Code:
 
 ```bash
 /plugin marketplace add kzmshx/claude-plugins
 ```
 
-## Available Plugins
-
-### PDD (Plan-Driven Development)
-
-Manage PLAN.md and NOTES.md for AI-assisted development workflows.
-
-**Install:**
+Then discover and install plugins:
 
 ```bash
-/plugin install pdd@kzmshx
+/plugin discover
 ```
 
-**Features:**
+Or install directly:
 
-- `/pdd:plan` - Create and manage PLAN.md files
-- `/pdd:notes` - Capture discoveries and notes during development
-- Automatic workflow suggestions on feature branches
-- Session lifecycle hooks for planning reminders
+```bash
+/plugin install {plugin-name}@kzmshx
+```
 
-[See full documentation](plugins/pdd/README.md)
+## Plugins
 
-## Contributing
-
-This is a personal plugin collection, but suggestions and feedback are welcome via issues.
+See [plugins/](plugins/) for available plugins.
 
 ## License
 
